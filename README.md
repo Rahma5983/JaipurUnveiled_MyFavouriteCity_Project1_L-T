@@ -1,148 +1,76 @@
-Jaipur – The Pink City
-A Responsive Multi-Page Travel Guide Website
+# 🌸 Jaipur Unveiled: The Pink City Tour Guide 🏰
 
-Welcome to the Jaipur – The Pink City web project!
-This is a fully responsive, multi-page travel website built using HTML, CSS, JavaScript, and Tailwind CSS.
-It showcases the beauty, culture, attractions, restaurants, events, and travel planning essentials of Jaipur in a clean and modern layout.
+A vibrant, multi-page website designed to showcase the history, attractions, and culture of the magical Pink City, Jaipur.
 
-🚀 Features
-✅ Multi-Page Layout
+## ✨ Project Overview
 
-The website is neatly divided into separate pages:
+This website was built to be a functional, visually appealing, and interactive guide to Jaipur. The central theme is a mix of **pink** hues, reflecting the city's famous nickname, combined with rich, colorful imagery and engaging user experiences.
 
-Home
+### Key Features Implemented:
 
-Attractions
+* **Multi-Page Architecture:** Seven fully functional pages covering all aspects of a trip to Jaipur.
+* **Pink Theme:** A customized CSS theme built around various shades of pink for a cohesive and attractive look.
+* **Interactive Flip Cards:** Every major section (Attractions, Restaurants, Things to Do, Events) features unique, flip-able cards. Clicking an image reveals detailed information (speciality, ratings, reviews) on the back.
+* **Integrated Map Links:** Each attraction card is connected to a "View on Map" link for easy location tracking (simulated Google Maps links).
+* **Trip Planning Integration:** Dedicated external links to major travel platforms for seamless hotel booking (MakeMyTrip) and tour guide sourcing (GetYourGuide).
+* **Attractive Typography:** Utilizes custom Google Fonts (`Playfair Display` and `Raleway`) for a luxurious and readable feel.
 
-Things to Do
+## 📁 Project Structure
 
-Restaurants
-
-Events
-
-Plan Your Trip
-
-Contact
-
-✅ Fully Responsive
-
-Designed with Tailwind CSS, the website automatically adapts to:
-
-Mobile 📱
-
-Tablet 📗
-
-Desktop 💻
-
-✅ Clean Code Structure
-
-The project follows a clear folder structure:
-
-/project
-│── index.html
-│── attractions.html
-│── restaurants.html
-│── things-to-do.html
-│── events.html
-│── plan-trip.html
-│── contact.html
-│── css/
+JaipurUnveiledWebsite/
+├── index.html
+├── history.html
+├── attractions.html
+├── restaurants.html
+├── things_to_do.html
+├── events.html
+├── plan_your_trip.html
+├── contact.html
+├── css/
 │   └── style.css
-│── js/
-│   └── main.js
-│── assets/
+├── js/
+│   └── script.js
+└── img/
 
-✅ Reusable Navigation & Footer
+## 🛠️ Technologies Used
 
-All pages use the same:
+* **HTML5:** Structure and Content
+* **CSS3:** Custom Styling (Pink Theme and Layout)
+* **Bootstrap 5.3:** Responsive design and component utility
+* **JavaScript (Vanilla JS):** Interactive card flipping logic
+* **Google Fonts:** Custom attractive typography
 
-Navigation bar
+## 🌟 How to Run
 
-Footer section
+1.  **Clone the Repository (or download the files):**
+    ```bash
+    git clone L-T_Frontend_Project1_3rdsem
+    cd Jaipurunveiled
+    ```
+2.  **Add Images:** Populate the `img/` folder with high-quality images of Jaipur attractions, restaurants, etc., ensuring filenames match those referenced in the HTML (e.g., `hawa_mahal.jpg`).
+3.  **Open:** Simply open the `index.html` file in your web browser.
 
-Ensuring consistency across the website.
+    ```bash
+    # Example (on macOS/Linux):
+    open index.html 
+    ```
 
-✅ Smooth User Experience
+## 🖼️ Feature Showcase: The Interactive Flip Card
 
-Optimized images
+This is the central interactive element of the site, providing a dual-view experience for every point of interest:
 
-Mobile-friendly hamburger menu
+| Front View | Back View (On Click) |
+| :---: | :---: |
+| **Image & Title** | **Description, Speciality, Ratings, Reviews** |
+|  | Details about the Palace of Winds, visitor information, and a **functional "View on Map" link**. |
 
-Hover animations
+---
 
-Simple and intuitive UI
+## 💡 Custom Enhancements
 
-🛠️ Technologies Used
-Technology	Purpose
-HTML5	Structure
-CSS3 / Tailwind CSS	Styling & Responsiveness
-JavaScript (ES6)	Interactivity
-Google Fonts	Typography
-Font Awesome / Hero Icons	Icons
-Responsive Images	Faster load time
-📸 Screenshots (Optional)
-
-Add screenshots like:
-
-Homepage preview
-
-Navigation
-
-Attractions section
-
-Events page
-
-You can upload images to GitHub and link them here.
-
-🧩 How to Run the Project
-
-Clone or Download the repository:
-
-git clone https://github.com/yourusername/yourrepo.git
-
-
-Open the project folder.
-
-Run the website by opening index.html in your browser.
-
-No server required — it's a static website.
-
-🔧 How to Edit or Extend
-
-You can modify:
-
-➤ Navigation
-
-Located in the <nav> section of each page.
-
-➤ Styles
-
-Edit /css/style.css for global styles.
-
-➤ JavaScript
-
-Customize /js/main.js for menu actions or animations.
-
-➤ Add New Pages
-
-Create a new .html file and link it in the navigation.
-
-🤝 Contributing
-
-Pull requests are welcome!
-If you find an issue or have a suggestion, feel free to open an issue.
-
-📄 License
-
-This project is completely free to use for personal or academic purposes.
-You may modify, distribute, or use it in your portfolio.
-
-🌟 Acknowledgements
-
-Tailwind CSS
-
-Google Fonts
-
-Open-source icon packs
-
-Images from Unsplash / Pexels (or your own)
+* **Fixed Navigation:** Ensures smooth, accessible navigation across all seven pages.
+* **External Integration:** Direct links to **MakeMyTrip** and **GetYourGuide** in the "Plan Your Trip" section, fulfilling the requirement for functional external booking resources.
+* **Thematic Design:** Every element, from the navbar background (`.bg-pink-dark`) to the card body (`.bg-light-pink`), uses the custom color palette defined in `style.css`.
+   
+    ├── kite_festival.jpg
+    ├─

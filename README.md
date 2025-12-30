@@ -8,12 +8,6 @@ Jaipur Unveiled is a small project that showcases the city of Jaipur — its his
 
 This project was assigned by **L&T Edutech** as part of their Learning Program and completed as a **group project**.
 
----
-
-## Demo
-- Live demo: _(Add link to hosted demo here if available)_
-
----
 
 ## Features
 - Introduction and history of Jaipur
@@ -23,9 +17,7 @@ This project was assigned by **L&T Edutech** as part of their Learning Program a
 - Responsive layout for viewing on desktop and mobile
 - Easy-to-read, accessible content
 
-(Adjust the above list to reflect the actual features implemented in your repository.)
 
----
 
 ## Built With
 - HTML5
@@ -33,9 +25,6 @@ This project was assigned by **L&T Edutech** as part of their Learning Program a
 - JavaScript (vanilla or frameworks if used)
 - Optional: Maps/Map API (Leaflet / Google Maps) for location display
 
-(Replace or add technologies depending on what the project uses.)
-
----
 
 ## Getting Started
 
@@ -43,7 +32,6 @@ These instructions will help you get a copy of the project up and running on you
 
 ### Prerequisites
 - A modern web browser (Chrome, Firefox, Edge, Safari)
-- Optional: Node.js & npm (if any build tools are used)
 
 ### Run as a Static Site (recommended if this is a plain HTML/CSS/JS project)
 1. Clone the repository:
@@ -58,22 +46,6 @@ These instructions will help you get a copy of the project up and running on you
      python -m http.server 8000
      # Then visit http://localhost:8000
      ```
-
-### Run with Node (if the project uses a Node-based toolchain)
-1. Install dependencies:
-   ```
-   npm install
-   ```
-2. Start the development server:
-   ```
-   npm start
-   ```
-3. Build for production:
-   ```
-   npm run build
-   ```
-
-(Adjust commands to match the actual build scripts in your repository.)
 
 ## Project Structure
 A typical structure for this project might look like:

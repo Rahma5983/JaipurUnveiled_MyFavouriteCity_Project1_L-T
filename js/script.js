@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
             card.classList.toggle('flipped');
         });
         
-        // Optional: Add accessibility features (keyboard interaction)
+     
         card.addEventListener('keypress', (e) => {
             // Check if Enter (13) or Space (32) was pressed
             if (e.key === 'Enter' || e.key === ' ') {

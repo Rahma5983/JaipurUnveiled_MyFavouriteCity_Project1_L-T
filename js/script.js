@@ -9,8 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
             card.classList.toggle('flipped');
         });
         
-     
-        card.addEventListener('keypress', (e) => {
+     card.addEventListener('keypress', (e) => {
             // Check if Enter (13) or Space (32) was pressed
             if (e.key === 'Enter' || e.key === ' ') {
                 e.preventDefault(); // Prevent default scroll for spacebar

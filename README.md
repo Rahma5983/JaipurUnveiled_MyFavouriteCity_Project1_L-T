@@ -110,33 +110,21 @@ Please follow the project's coding style and include clear commit messages. For 
 ## Group Project & Attribution
 This project was created as part of the **L&T Edutech Learning Program** and completed as a **group project**.  
 Team members:
-- Rahma5983 (GitHub: [Rahma5983](https://github.com/Rahma5983))
-- Member 2 — (replace with actual name and GitHub)
-- Member 3 — (replace with actual name and GitHub)
-- ... (add more members as needed)
+- Rahma Naqui (GitHub: [Rahma5983](https://github.com/Rahma5983))
+- Aishwarya Ray
+- Sakshi Yadav
+- Neha Singh
 
 Instructor / Program: L&T Edutech — Learning Program
 
----
+NarendraKumar Gopineedi Sir
 
 ## Acknowledgements
 - Thank you to L&T Edutech for providing the project as part of the Learning Program.
-- Reference materials and images (replace with actual sources used):
-  - [Wikimedia Commons](https://commons.wikimedia.org/)
-  - Official tourism sites and local guides
-
-Please attribute any third-party assets you used (images, icons, libraries) according to their licenses.
-
----
 
 ## License
 This project is provided for learning purposes as part of the L&T Edutech program.  
 You can choose a license for this repository (e.g., MIT). If you want to apply the MIT license, add a `LICENSE` file with the MIT text. Otherwise, update this section to reflect the actual license.
-
----
-
-## Contact
-For questions or feedback, reach out via GitHub:
 - Project owner / main contact: [Rahma5983](https://github.com/Rahma5983)
 
 ---

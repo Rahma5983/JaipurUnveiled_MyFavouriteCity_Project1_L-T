@@ -77,7 +77,7 @@ Team members:
 
 Instructor / Program: L&T Edutech — Learning Program
 
-NarendraKumar Gopineedi Sir
+- NarendraKumar Gopineedi Sir
 
 ## Acknowledgements
 - Thank you to L&T Edutech for providing the project as part of the Learning Program.

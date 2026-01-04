@@ -14,7 +14,7 @@ body {
     font-family: 'Raleway', sans-serif;
     color: var(--color-text-dark);
     background-color: var(--color-pink-primary);
-    padding-top: 80px; /* Increased to avoid navbar overlap */
+    padding-top: 80px; 
 }
 
 .main-heading {
